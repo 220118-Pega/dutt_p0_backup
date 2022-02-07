@@ -1,0 +1,18 @@
+import com.dutTech.Reimbursement.bl.TicketBL;
+import com.dutTech.Reimbursement.controllers.IController;
+import com.dutTech.Reimbursement.controllers.TicketController;
+import com.dutTech.Reimbursement.dl.DBRepository;
+
+public class RESTDriver {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		IController iController = new TicketController(
+										new TicketBL(
+												new DBRepository(
+														new TicketDAO())));
+
+	}
+
+}

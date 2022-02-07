@@ -1,0 +1,25 @@
+package com.dutTech.Reimbursement.utils;
+
+import com.dutTech.Reimbursement.models.Ticket;
+
+import io.javalin.plugin.openapi.dsl.OpenApiDocumentation;
+
+public class DocumentationFactory {
+	
+	public static OpenApiDocumentation getDoc(String endPoint) {
+		
+		switch(endPoint) {
+		
+		case"addTicket":
+			return OpenApiBuilder.document().operation(op -> {
+				op.addTagsItem("Tickets");
+			}).body(Ticket.class).result("201");
+			
+			
+		default:
+			return null;
+		
+		}
+	}
+
+}

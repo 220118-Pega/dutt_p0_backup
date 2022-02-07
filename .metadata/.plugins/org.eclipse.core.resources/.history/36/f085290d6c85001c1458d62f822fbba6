@@ -1,0 +1,40 @@
+package com.dutTech.Reimbursement.controllers;
+
+import com.dutTech.Reimbursement.bl.ITicketBL;
+
+import io.javalin.http.Handler;
+
+public class TicketController implements IController{
+	
+	private ITicketBL ticketBL;
+	
+	public TicketController(ITicketBL ticketBL) {
+		this.ticketBL=ticketBL;
+	}
+	
+
+	@Override
+	public Handler add() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Handler getAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Handler getById() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Handler update() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

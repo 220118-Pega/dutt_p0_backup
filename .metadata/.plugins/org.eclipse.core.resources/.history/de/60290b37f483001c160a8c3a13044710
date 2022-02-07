@@ -1,0 +1,5 @@
+package com.dutTech.Reimbursement.models;
+
+public class Ticket {
+
+}

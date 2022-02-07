@@ -1,0 +1,33 @@
+package com.dutTech.Reimbursement.dl;
+
+import java.util.ArrayList;
+
+import com.dutTech.Reimbursement.models.Ticket;
+
+public class DBRepository implements IRepo{
+
+	@Override
+	public ArrayList<Ticket> getTickets() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Ticket getTicketById(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void addTicket(Ticket newTicket) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void updateTicket(Ticket newTicket) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

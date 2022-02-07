@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="java.util.Properties"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.dutTech.Reimbursement.enums.Status"/>
+    <fullyQualifiedTypeName name="com.dutTech.Reimbursement.models.Employee"/>
+    <fullyQualifiedTypeName name="org.apache.logging.log4j.LogManager"/>
+    <fullyQualifiedTypeName name="org.apache.logging.log4j.core.Logger"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="java.sql.Statement"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="com.dutTech.Reimbursement.enums.Reimbursement"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="java.sql.Timestamp"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.dutTech.Reimbursement.dl.IRepo"/>
+    <fullyQualifiedTypeName name="io.javalin.http.Handler"/>
+    <fullyQualifiedTypeName name="com.dutTech.Reimbursement.bl.ITicketBL"/>
+    <fullyQualifiedTypeName name="io.javalin.plugin.openapi.dsl.OpenApiDocumentation"/>
+    <fullyQualifiedTypeName name="io.javalin.plugin.openapi.dsl.OpenApiBuilder"/>
+    <fullyQualifiedTypeName name="com.dutTech.Reimbursement.models.Ticket"/>
+    <fullyQualifiedTypeName name="com.dutTech.Reimbursement.controllers.IController"/>
+    <fullyQualifiedTypeName name="com.dutTech.Reimbursement.controllers.TicketController"/>
+    <fullyQualifiedTypeName name="com.dutTech.Reimbursement.bl.TicketBL"/>
+    <fullyQualifiedTypeName name="com.dutTech.Reimbursement.dl.DBRepository"/>
+    <fullyQualifiedTypeName name="com.dutTech.Reimbursement.dl.TicketDAO"/>
+    <fullyQualifiedTypeName name="io.javalin.Javalin"/>
+    <fullyQualifiedTypeName name="com.dutTech.Reimbursement.utils.Router"/>
+    <fullyQualifiedTypeName name="io.javalin.plugin.openapi.OpenApiPlugin"/>
+    <fullyQualifiedTypeName name="io.javalin.plugin.openapi.OpenApiOptions"/>
+    <fullyQualifiedTypeName name="io.swagger.v3.oas.models.info.Info"/>
+    <fullyQualifiedTypeName name="io.javalin.plugin.openapi.ui.SwaggerOptions"/>
+    <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
+</qualifiedTypeNameHistroy>

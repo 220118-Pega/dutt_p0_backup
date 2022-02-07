@@ -1,0 +1,31 @@
+import com.dutTech.Reimbursement.bl.TicketBL;
+import com.dutTech.Reimbursement.controllers.IController;
+import com.dutTech.Reimbursement.controllers.TicketController;
+import com.dutTech.Reimbursement.dl.DBRepository;
+import com.dutTech.Reimbursement.dl.TicketDAO;
+import com.dutTech.Reimbursement.utils.Router;
+
+import io.javalin.Javalin;
+import io.javalin.plugin.openapi.OpenApiPlugin;
+
+public class RESTDriver {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		IController tController = new TicketController(
+										new TicketBL(
+												new DBRepository(
+														new TicketDAO())));
+		
+		
+		Javalin app = Javalin.create(config -> {
+			config.registerPlugin(new OpenApiPlugin(getOpenApiOptions()));
+		}).start(7000);
+		Router router = new Router(app,tController);
+		router.setUpEndPoints();
+	}
+
+	}
+
+}

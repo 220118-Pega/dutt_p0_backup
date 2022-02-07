@@ -1,0 +1,16 @@
+package com.dutTech.Reimbursement.dl;
+
+import java.util.List;
+
+import com.dutTech.Reimbursement.enums.Status;
+import com.dutTech.Reimbursement.models.Ticket;
+
+public interface DAO<T,K> {
+	T findById(K id);
+	List<T>findAll();
+	List<T>getTicketByEmployeeId(K employee_id);
+	List<Ticket> filterStatus(Status status);
+	void add(T newObject);
+	void update(T newObject);
+}
+

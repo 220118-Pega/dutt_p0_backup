@@ -1,0 +1,17 @@
+package com.dutTech.Reimbursement.utils;
+
+import io.javalin.plugin.openapi.dsl.OpenApiDocumentation;
+
+public class DocumentationFactory {
+	
+	public static OpenApiDocumentation getDoc(String endPoint) {
+		
+		switch(endPoint) {
+		
+		default:
+			return null;
+		
+		}
+	}
+
+}

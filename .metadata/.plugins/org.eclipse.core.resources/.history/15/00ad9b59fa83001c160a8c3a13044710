@@ -1,0 +1,70 @@
+package com.dutTech.Reimbursement.models;
+
+public class Employee {
+	
+	int id;
+	String name;
+	String password;
+	Boolean isManager;
+	
+	
+	public Employee() {
+		
+	}
+	
+	public Employee(String name, Boolean isManager) {
+		this.name=name;
+		this.isManager=isManager;
+	}
+	
+	public Employee(String name, Boolean isManager,String password) {
+		this(name,isManager);
+		this.password=password;
+	}
+	
+	public Employee(String name, Boolean isManager,String password,int id) {
+		this(name,isManager,password);
+		this.id = id;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+	public Boolean getIsManager() {
+		return isManager;
+	}
+
+	public void setIsManager(Boolean isManager) {
+		this.isManager = isManager;
+	}
+
+	@Override
+	public String toString() {
+		return "Employee [id=" + id + ", name=" + name + ", password=" + password + ", isManager=" + isManager + "]";
+	}
+	
+	
+	
+
+}
